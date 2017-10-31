@@ -1,0 +1,23 @@
+.bigBlue{
+		color: gold; 
+		font-family: Georgia;
+		background-color:black;
+		text-align: center;
+		margin: 15px,15px,50px,50px;
+		text-decoration:underline
+		}
+#id{
+	font-color: green;
+}
+body{
+	background:url("https://upload.wikimedia.org/wikipedia/commons/d/d1/Mount_Everest_as_seen_from_Drukair2_PLW_edit.jpg");
+	background-size: 1500px, 1500px;
+}
+h1{color:gold;
+	font-size:35px;	
+}
+h2{color: gold; 
+	font: Arial;
+	font-size:25px;
+}
+p{color: black;font:Arial;}
