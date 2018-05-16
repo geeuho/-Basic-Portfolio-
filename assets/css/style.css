@@ -29,6 +29,7 @@
 		border:#dddddd;
 		background-color:;
     	bottom: 0;
+    	overflow:auto;
 }
 .info{
 	height:400px;
@@ -39,7 +40,8 @@
 	float:right;
 	top:50px;
 }
-div.menu{float:right;
+div.menu{
+	float:right;
 }
 a.menu{
 	font-color:#777777;
@@ -51,7 +53,12 @@ div{
 .content{
 	width:960px;
 	margin:auto;
+<<<<<<< HEAD
 	position:relative;
+=======
+	position:absolute;
+	overflow:auto;
+>>>>>>> b9d9bd3b2e8aecca429f73673bfa7955c0cd0e3e
 }
 .about{
 	width:650px;
@@ -89,7 +96,11 @@ header{
 footer{
   display: block;
   padding:1em;
+<<<<<<< HEAD
   position:sticky;
+=======
+  position:absolute;
+>>>>>>> b9d9bd3b2e8aecca429f73673bfa7955c0cd0e3e
   bottom:0px;
   text-align: center;
   background: #ebebeb;
@@ -99,6 +110,7 @@ div{
 body{
 	background-image:url('../../assets/images/6.png');
 	background-size: 1500px, 1500px;
+	overflow:auto;
 }	
 h1{color:white; 
 	font: Arial;
