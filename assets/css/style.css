@@ -16,7 +16,7 @@
 	font-color:white;
 	background-width:100%;
 	background-color:#4aaaa5;
-	;
+	
 }
 .container{
 	width:100%
@@ -27,6 +27,7 @@
 .container2{
 		width:100%;
 		border:#dddddd;
+		background-color:;
     	bottom: 0;
 }
 .info{
@@ -44,10 +45,13 @@ a.menu{
 	font-color:#777777;
 	font-family:Arial;
 }
+div{
+	padding:10px;
+}
 .content{
-	overflow:auto;
 	width:960px;
-	position:center;
+	margin:auto;
+	position:relative;
 }
 .about{
 	width:650px;
@@ -57,15 +61,18 @@ a.menu{
 .contact{
 	width:650px;
 	clear:left;
+	overflow:auto;
 }
 .portfolio{
 	width:650px;
 	clear:left;
-}
+	overflow:auto;
+} 
 .sidebar{
 	width:270px;
 	float:right;
 	clear:left;
+	overflow:auto;
 }	
 .icons{
 	clear:right;
@@ -75,16 +82,19 @@ input{
 }
 header{
 	padding:1em;
+	text-align:center;
+	overflow:auto;
+	color:#ffffff;
 }
 footer{
-	padding:1em;
-	background-color:#666666;
-	text-align:center;
-	font-family:Georgia;
-	clear:left;
+  display: block;
+  padding:1em;
+  position:sticky;
+  bottom:0px;
+  text-align: center;
+  background: #ebebeb;
 }
 div{
-	padding:10px;
 }
 body{
 	background-image:url('../../assets/images/6.png');
